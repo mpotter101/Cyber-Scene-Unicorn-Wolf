@@ -13,6 +13,10 @@ body {
     box-sizing: border-box;
 }
 
+#game {
+    height: 90%;
+    background: black;
+}
 
 .column {
     display: inline-block;
@@ -28,11 +32,6 @@ body {
 
 .column.center {
     width: 60%
-}
-
-#game {
-    height: 90%;
-    background: black;
 }
 
 .group {
