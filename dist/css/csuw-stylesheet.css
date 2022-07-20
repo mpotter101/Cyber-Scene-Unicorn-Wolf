@@ -67,17 +67,18 @@ body {
 }
 
 .social-media.banner > img {
-    height: 75%;
+    height: 60%;
     float: left;
-    margin-left: 1em;
-    margin-top: 0.4em;
+    margin-left: 0.75em;
+    margin-top: 0.55em;
 }
 
 .social-media.banner > label {
     float: left;
-    margin-left: 0.5em;
-    margin-top: 0.5em;
-    font-size: 1.25em;
+    font-family: monospace;
+    margin-left: 0.4em;
+    margin-top: 0.45em;
+    font-size: 1.75em;
 }
 
 .social-media.group.texts {
