@@ -18,6 +18,8 @@ body {
     background: black;
 }
 
+/* Column styling for layout */
+
 .column {
     display: inline-block;
     float: left;
@@ -34,6 +36,8 @@ body {
     width: 60%
 }
 
+/* Group styling for items in columns */
+
 .group {
     border-bottom: 0.25em dotted #3f4565;
 }
@@ -46,4 +50,116 @@ body {
     height: 250px;
     background: black;
     color: white;
+}
+
+/* Social media column styling */
+
+.column.right {
+    background-color: #d4d4d4;
+    overflow: hidden;
+}
+
+.social-media.banner {
+    background: #633fba;
+    color: white;
+    height: 3em;
+    margin-bottom: 1em;
+}
+
+.social-media.banner > img {
+    height: 75%;
+    float: left;
+    margin-left: 1em;
+    margin-top: 0.4em;
+}
+
+.social-media.banner > label {
+    float: left;
+    margin-left: 0.5em;
+    margin-top: 0.5em;
+    font-size: 1.25em;
+}
+
+.social-media.group.texts {
+    height: 100%;
+    padding: 1em;
+}
+
+.social-media.message {
+    background-color: #f0f0f0;
+    border-radius: 0.5em;
+    font-family: calibri;
+    font-size: 1.1em;
+    padding: 0 0 1em 0;
+
+    -webkit-box-shadow: -3px 3px 0px 3px rgba(0,0,0,0.15);
+    box-shadow: -3px 3px 0px 3px rgba(0,0,0,0.15);
+}
+
+.social-media.message.enemy {
+    margin: 0 3em 4em 1em;
+}
+
+.social-media.message.player {
+    margin: 0 1em 4em 3em;
+}
+
+.social-media.nametag {
+    background-color: #dbdbdb;
+    border-radius: 0.5em 0.5em 0 0;
+    color: white;
+    font-size: 0.9em;
+    font-weight: bold;
+    padding: 0.5em;
+    width: 100%;
+}
+
+.social-media.nametag.enemy {
+    background-color: #993639;
+    text-align: left;
+    padding-left: 1em;
+}
+
+.social-media.nametag.player {
+    background-color: #4e2f9a;
+    text-align: right;
+    padding-right: 1em;
+}
+
+.social-media.text {
+    padding: 0.25em 1.5em 2em 1.5em;
+}
+
+.social-media.meta-text {
+    font-size: 0.65em;
+    opacity: 0.5;
+    margin-top: -1.5em;
+    padding: 0 3.5em;
+    font-style: italic;
+    text-align: center;
+    width: 100%;
+}
+
+.social-media.pfp {
+    height: 3em;
+    width: 3em;
+    border-radius: 100%;
+    overflow: hidden;
+    margin-top: -1.0em;
+    border: 0.25em solid #3d3d3d;
+}
+
+.social-media.pfp > img {
+    height: 100%;
+    width: 100%;
+}
+
+.social-media.pfp.enemy {
+    float: left;
+    margin-left: -0.5em;
+}
+
+.social-media.pfp.player {
+    float: right;
+    margin-right: -0.5em;
 }
