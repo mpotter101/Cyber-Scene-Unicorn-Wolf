@@ -25,7 +25,7 @@ body {
     float: left;
     height: 100%;
     text-align: center;
-    border: 0.25em dotted #3f4565;
+    /* border: 0.25em dotted #3f4565; */
 }
 
 .column.left, .column.right {
@@ -39,17 +39,11 @@ body {
 /* Group styling for items in columns */
 
 .group {
-    border-bottom: 0.25em dotted #3f4565;
+    /* border-bottom: 0.25em dotted #3f4565; */
 }
 
 .group:last-child {
-    border-bottom: none;
-}
-
-.group.minimap {
-    height: 250px;
-    background: black;
-    color: white;
+    /* border-bottom: none; */
 }
 
 /* Social media column styling */
@@ -163,4 +157,236 @@ body {
 .social-media.pfp.player {
     float: right;
     margin-right: -0.5em;
+}
+
+/* Findr styling */
+
+.findr.group {
+    border: 0.25em solid #08bd35;
+    height: 20vh;
+    background: black;
+}
+
+.findr.header {
+    background-color: #08bd35;
+    padding: 1em;
+    transform:skew(-30deg);
+    margin-left: -1em;
+    width: 30%;
+}
+
+.findr.title {
+    float: right;
+    margin-top: -0.7em;
+    font-weight: bold;
+    transform:skew(30deg);
+    font-family: "calibri", Tahoma;
+}
+
+/* Myface.com styling */
+
+.myface.group {
+    background-color: #490b23;
+    height: 80vh;
+    overflow: hidden;
+}
+
+.myface.header {
+    /* background-color: #550626;
+    color: white; */
+    font-family: fantasy;
+    font-weight: bold;
+    font-size: 1.3em;
+    text-align: left;
+    padding: 0.3em 0.5em 0.7em 0.5em;
+
+    color: #FFFFFF;
+    background: #D60F5F;
+    text-shadow: 0 1px 0px #378ab4, 1px 0 0px #5dabcd, 1px 2px 1px #378ab4, 2px 1px 1px #5dabcd, 2px 3px 2px #378ab4, 3px 2px 2px #5dabcd, 3px 4px 2px #378ab4, 4px 3px 3px #5dabcd, 4px 5px 3px #378ab4, 5px 4px 2px #5dabcd, 5px 6px 2px #378ab4, 6px 5px 2px #5dabcd, 6px 7px 1px #378ab4, 7px 6px 1px #5dabcd, 7px 8px 0px #378ab4, 8px 7px 0px #5dabcd;
+}
+
+.myface.header > label {
+    margin-top: -0.5em;
+}
+
+.myface.banner {
+    height: 9em;
+    overflow: hidden;
+    text-align: center;
+    z-index: 1;
+}
+
+.myface.banner-gradient {
+    background-image: linear-gradient(to bottom, rgba(245, 246, 252, 0), rgba(0, 0, 0, 1));
+    height: 100%;
+    opacity: 0.5;
+    width: 100%;
+}
+
+.myface.banner > img {
+    float: left;
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+}
+
+.myface.pfp {
+    border-radius: 100%;
+    height: 5em;
+    margin: -2.5em auto 0.5em;
+    overflow: hidden;
+    position: relative;
+    width: 5em;
+    z-index: 2;
+}
+
+.myface.pfp > img {
+    height: 100%;
+    position: relative;
+    width: 100%;
+    z-index: 2;
+}
+
+.myface.column.left {
+    background-color: #25141b;
+    color: white;
+    font-family: "calibri";
+    height: 28.5%;
+    width: 45%;
+    text-align: center;
+}
+
+.myface.about {
+    width: 100%;
+    height: 78%;
+    overflow: hidden;
+}
+
+.myface.name {
+    font-size: 1.2em;
+}
+
+.myface.description {
+    opacity: 0.5;
+    font-style: italic;
+    font-size: 0.8em;
+    margin-bottom: 1.5em;
+    padding: 0 0.75em;
+}
+
+.myface.profile-info {
+    text-align: left;
+    font-size: 0.6em;
+    width: 100%;
+    margin-bottom: 0.25em;
+}
+
+.myface.profile-info > label {
+    margin-left: 1em;
+    margin-right: 0.5em;
+}
+
+.myface.health {
+    color: white;
+    position: relative;
+    background-color: #25141b;
+    border-radius: 0.3em;
+    font-family: sans-serif;
+    font-weight: bold;
+    padding: 0.6em 0.75em 0.7em;
+    margin: 1em auto 0;
+    text-align: left;
+    width: 90%;
+}
+
+.myface.hp.missing {
+    width: 100%;
+    height: 1em;
+    background-color: #000000;
+}
+
+.myface.hp.current {
+    height: 1em;
+    float: left;
+    margin-top: -1em;
+    background-color: #00d4c1;
+}
+
+.myface.followers {
+    color: white;
+    font-size: 1.2em;
+    height: 2em;
+    margin-top: 0.25em;
+    padding: 0 1em;
+    width: 100%;
+}
+
+.myface.button {
+    display: inline-block;
+    background-color: #e8dee2;
+    border-radius: 0.25em;
+    height: 2em;
+    margin-right: 0.5em;
+    padding: 0.2em;
+    width: 2em;
+}
+
+.myface.button > img {
+    height: 100%;
+    width: 100%;
+}
+
+.myface.followers > label:first-child {
+    float: left;
+}
+
+.myface.followers > label:last-child {
+    float: right;
+}
+
+.myface.follow {
+    background-color: #D60F5F;
+    margin: 1em auto;
+    padding: 0.5em;
+    position: relative;
+    width: 90%;
+}
+
+.myface.column.center {
+    color: white;
+    font-family: calibri;
+    width: 55%;
+    height: 28.5%;
+}
+
+.myface.posts {
+    display: inline-flex;
+    height: 43%;
+    width: 100%;
+}
+
+.myface.post {
+    background-color: #e8dee2;
+    border-radius: 0.1em;
+    margin: 1em auto 0;
+    position: relative;
+    width: 75%;
+
+    -webkit-box-shadow: 4px 6px 9px 2px rgba(0,0,0,0.39);
+    box-shadow: 4px 6px 9px 2px rgba(0,0,0,0.39);
+}
+
+.myface.post-image {
+    height: 70%;
+}
+
+.myface.post-image > img {
+    height: 100%;
+    width: 100%;
+}
+
+.myface.post-description {
+    padding: 1em;
+    font-family: calibri;
+    text-align: left;
 }

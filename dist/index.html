@@ -15,18 +15,65 @@
         <script src="./lib/pixi.min.js"></script>
     </head>
 
+<!-- Bosses are people with more followers than you -->
+<!-- Updating myface.com should provide different stats -->
+
     <body>
         <div class="column left">
-            <div class="group minimap">
-                    Minimap
+            <div class="findr group">
+                <div class="findr header">
+                    <label class="findr title">
+                        Findr
+                    </label>
+                </div>
+                <div class="findr footer"></div>
             </div>
-            <div class="group">
-                <div>Hit Points</div>
-                <div>Social Power</div>
-            </div>
-            <div class="group">
-                <div>Outfit</div>
-                <div>Outfit reminder text</div>
+            <div class="myface group">
+                <div class="myface header"><label>MyFace.com</label></div>
+                <div class="myface banner">
+                    <img src="./assets/myface-banner.png" />
+                    <div class="myface banner-gradient"></div>
+                </div>
+                <div class="myface column left">
+                    <div class="myface pfp"><img src="./assets/csuw-pfp.jpg" /></div>
+                    <div class="myface about">
+                        <div class="myface name">xXx_Mary_Sue_xXx</div>
+                        <div class="myface description">Just your average cyber scene unicorn wolf</div>
+                        <div class="myface profile-info"><label>Birthday:</label>12/25/19XX</div>
+                        <div class="myface profile-info"><label>Sign:</label>Scorpio</div>
+                        <div class="myface profile-info"><label>Fav Band:</label>Z0MG! So many</div>
+                        <div class="myface profile-info"><label>Fav Artist:</label>DRAAAAKE!</div>
+                    </div>
+                </div>
+                <div class="myface column center">
+                    <div class="myface health">
+                        <label>HP</label>
+                        <div class="myface hp missing"></div>
+                        <div class="myface hp current" style="width: 60%;"></div>
+                    </div>
+                    <div class="myface followers">
+                        <label>Followers:</label><label>99,999</label>
+                    </div>
+                    <div class="myface interactions">
+                        <div class="myface button"><img src="./assets/email.png" /></div>
+                        <div class="myface button"><img src="./assets/export.png" /></div>
+                        <div class="myface button"><img src="./assets/next.png" /></div>
+                        <div class="myface button"><img src="./assets/share.png" /></div>
+                    </div>
+                    <div class="myface follow">
+                        <label>FOLLOW</label>
+                    </div>
+                </div>
+                <div class="myface posts">
+                    <div class="myface post">
+                        <div class="myface post-image">
+                            <img src="./assets/myface-post.jpg" />
+                        </div>
+                        <div class="myface post-description">
+                            L1k3 ch3k it 0UT!!1! G0t my n3w blast3r!1!! xD OwO
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
         <div class="column center">
