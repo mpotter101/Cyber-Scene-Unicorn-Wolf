@@ -14,7 +14,7 @@ body {
 }
 
 #game {
-    height: 90%;
+    height: 88vh;
     background: black;
 }
 
@@ -389,4 +389,44 @@ body {
     padding: 1em;
     font-family: calibri;
     text-align: left;
+}
+
+/* Doomer styling */
+
+.doomer.group {
+    background-color: #21879d;
+    border-top: 0.25em solid #0f5a6a;
+    border-left: 0.25em solid #0f5a6a;
+    border-right: 0.25em solid #0f5a6a;
+    height: 12vh;
+}
+
+.doomer > div {
+    height: 100%;
+    float: left;
+}
+
+.doomer.weapon {
+    height: 100%;
+    width: 43%;
+}
+
+.doomer.ammo {
+    background: #11262a;
+    width: 75%;
+    height: 100
+}
+
+.doomer.gun {
+    width: 25%;
+}
+
+.doomer.portrait {
+    background: black;
+    border-top: 0.25em solid #b3b3b3;
+    border-left: 0.25em solid #b3b3b3;
+    border-right: 0.25em solid #4d4d4d;
+    border-bottom: 0.25em solid #4d4d4d;
+    width: 14%;
+    height: 100%;
 }
