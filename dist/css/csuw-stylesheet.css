@@ -25,6 +25,8 @@ body {
     float: left;
     height: 100%;
     text-align: center;
+
+    overflow: hidden;
     /* border: 0.25em dotted #3f4565; */
 }
 
@@ -33,7 +35,7 @@ body {
 }
 
 .column.center {
-    width: 60%
+    width: 60%;
 }
 
 /* Group styling for items in columns */
@@ -403,30 +405,41 @@ body {
 
 .doomer > div {
     height: 100%;
-    float: left;
 }
 
-.doomer.weapon {
+.doomer.gun > img {
     height: 100%;
-    width: 43%;
+    width: 100%;
 }
 
-.doomer.ammo {
-    background: #11262a;
-    width: 75%;
-    height: 100
+.doomer.selected {
+    position: relative;
+    margin-top: -10vh;
+    z-indeX: 10
 }
 
-.doomer.gun {
-    width: 25%;
+.doomer.selected > img {
+    height: 100%;
+    width: 100%;
 }
 
 .doomer.portrait {
+    height: 100%;
+    text-align: center;
+}
+
+.doomer.portrait > div {
+    display: inline-block;
+}
+
+.doomer.pfp {
     background: black;
     border-top: 0.25em solid #b3b3b3;
     border-left: 0.25em solid #b3b3b3;
     border-right: 0.25em solid #4d4d4d;
     border-bottom: 0.25em solid #4d4d4d;
-    width: 14%;
+    position: relative;
+    top: -2vh;
+    width: 9vw;
     height: 100%;
 }
