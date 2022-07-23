@@ -26,7 +26,6 @@ body {
     height: 100%;
     text-align: center;
 
-    overflow: hidden;
     /* border: 0.25em dotted #3f4565; */
 }
 
@@ -36,6 +35,7 @@ body {
 
 .column.center {
     width: 60%;
+    overflow:hidden;
 }
 
 /* Group styling for items in columns */
